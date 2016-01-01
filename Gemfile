@@ -3,8 +3,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# Use postgresql as the database for Active Record
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -50,13 +50,11 @@ gem 'pg', '~> 0.18.4'
 
 #geoserver adapter
 gem 'activerecord-postgis-adapter'
-gem 'rubinius', '~> 2.0', '>= 2.0.1'
+#gem 'rubinius', '~> 2.0', '>= 2.0.1'
 gem 'rgeo', '~> 0.5.2'
 
 # ASSETS Extras
-gem 'angular-rails-templates'
 gem 'bower-rails'
-gem 'angularjs-rails', '~> 1.4', '>= 1.4.7'
 gem 'twitter-bootstrap-rails', '~> 3.2', '>= 3.2.2'
 gem 'font-awesome-rails', '~> 4.5'
 gem 'rails-angular-material', '~> 0.10.0'
@@ -71,11 +69,6 @@ gem 'twitter'
 #gem 'cancan', '~>1.6.10'
 
 gem 'pundit'
-
-
-#bug lasers
-gem 'byebug'
-gem 'web-console', '~> 2.0'
 
 #image resources
 gem 'carrierwave'
