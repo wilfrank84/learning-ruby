@@ -1,28 +1,16 @@
-== README
+Rails sem Zika!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Projeto que visa estimular programadores e designers à desenvolverem um projeto real, utilizando framework Ruby on Rails.
+A ideia é criar uma espécie de "mapa da dengue", onde devem ser cadastrados focos do mosquito, áreas de maior índice da doença, bem como denunciar possíveis focos.
 
-Things you may want to cover:
+ Instalação
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    Clonando o repositório
+    Gems utilizadas
+    Banco de dados
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Wiki do projeto disponível em: https://github.com/pnaponoceno/learning-ruby/wiki
+
+Você pode participar independente do seu grau de conhecimento na linguagem, estamos aqui juntos para desenvolver e contribuir com o conhecimento de todos e, posteriormente, com a comunidade em geral.
+
