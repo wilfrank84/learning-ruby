@@ -41,6 +41,12 @@ gem 'omniauth-twitter'
 gem 'omniauth-facebook'
 gem 'twitter'
 
+# Code Style (https://github.com/bbatsov/rubocop)
+gem 'rubocop'
+
+# HAML (http://haml.info/about.html)
+gem 'haml'
+
 gem 'pundit'
 gem 'simple_form'
 
@@ -48,8 +54,11 @@ gem 'simple_form'
 gem "refile", require: "refile/rails"
 gem "refile-mini_magick"
 
-#huehue
 gem 'brazilian-rails'
 
 #documentation
 gem 'swagger-docs', '~> 0.1.9'
+
+# errors
+gem 'better_errors'
+gem 'binding_of_caller'
