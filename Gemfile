@@ -3,12 +3,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.5'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
-gem 'sdoc', '~> 0.4.0', group: :doc
-
 
 group :development, :test do
   gem 'byebug'
@@ -19,7 +16,9 @@ group :development do
   gem 'web-console', '~> 2.0'
 end
 
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+group :doc do
+  gem 'sdoc', require: false
+end
 
 #database
 gem 'pg', '~> 0.18.4'
@@ -30,7 +29,7 @@ gem 'rgeo', '~> 0.5.2'
 
 # ASSETS Extras
 gem 'bower-rails'
-gem 'twitter-bootstrap-rails', '~> 3.2', '>= 3.2.2'
+gem 'twitter-bootstrap-rails'
 gem 'font-awesome-rails', '~> 4.5'
 gem 'rails-angular-material', '~> 0.10.0'
 
@@ -53,8 +52,6 @@ gem 'simple_form'
 # Upload files
 gem "refile", require: "refile/rails"
 gem "refile-mini_magick"
-
-gem 'brazilian-rails'
 
 #documentation
 gem 'swagger-docs', '~> 0.1.9'
