@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username:
+  password:
+
+development:
+  <<: *default
+  database: rubysemzika_development
+
+test:
+  <<: *default
+  database: rubysemzika_test
+
+production:
+  <<: *default
+  database: rubysemzika_production
