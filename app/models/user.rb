@@ -5,6 +5,7 @@ class User < ActiveRecord::Base
          # LogIn/SignUp via facebook, inicialmente
          :omniauthable, omniauth_providers: [:facebook]
 
+  attachment :profile_image
 
   def self.from_omniauth(auth)
     where(provider: auth.provider, uid: auth.uid).first_or_create do |user|

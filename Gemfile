@@ -42,9 +42,11 @@ gem 'omniauth-facebook'
 gem 'twitter'
 
 gem 'pundit'
+gem 'simple_form'
 
-gem 'carrierwave'
-gem 'cloudinary'
+# Upload files
+gem "refile", require: "refile/rails"
+gem "refile-mini_magick"
 
 #huehue
 gem 'brazilian-rails'
