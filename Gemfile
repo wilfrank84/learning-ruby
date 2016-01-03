@@ -28,10 +28,10 @@ gem 'activerecord-postgis-adapter'
 gem 'rgeo', '~> 0.5.2'
 
 # ASSETS Extras
-gem 'bower-rails'
-gem 'twitter-bootstrap-rails'
 gem 'font-awesome-rails', '~> 4.5'
-gem 'rails-angular-material', '~> 0.10.0'
+
+# Bootstrap (https://github.com/twbs/bootstrap-sass)
+gem 'bootstrap-sass', '~> 3.3.6'
 
 #acl layer
 gem 'devise', '~>3.5.2'
@@ -42,9 +42,6 @@ gem 'twitter'
 
 # Code Style (https://github.com/bbatsov/rubocop)
 gem 'rubocop'
-
-# HAML (http://haml.info/about.html)
-gem 'haml'
 
 gem 'pundit'
 gem 'simple_form'
