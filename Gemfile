@@ -1,58 +1,54 @@
 source 'https://rubygems.org'
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+
+ruby '2.2.3'
+
 gem 'rails', '4.2.5'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
-gem 'jquery-rails'
-gem 'turbolinks'
+gem 'jquery-rails', '~> 4.0.5'
+gem 'turbolinks', '~> 2.5.3'
 gem 'jbuilder', '~> 2.0'
-
-group :development, :test do
-  gem 'byebug'
-  gem 'dotenv-rails'
-end
-
-group :development do
-  gem 'web-console', '~> 2.0'
-end
-
-group :doc do
-  gem 'sdoc', require: false
-end
+gem 'pundit', '~> 1.0.1'
+gem 'simple_form', '~> 3.2.1'
 
 #database
 gem 'pg', '~> 0.18.4'
 
 #geoserver adapter
-gem 'activerecord-postgis-adapter'
+gem 'activerecord-postgis-adapter', '~> 3.1.2'
 gem 'rgeo', '~> 0.5.2'
-
-# ASSETS Extras
-gem 'font-awesome-rails', '~> 4.5'
-
-# Bootstrap (https://github.com/twbs/bootstrap-sass)
-gem 'bootstrap-sass', '~> 3.3.6'
 
 #acl layer
 gem 'devise', '~>3.5.2'
-gem 'omniauth'
-gem 'omniauth-twitter'
-gem 'omniauth-facebook'
-gem 'twitter'
+gem 'omniauth', '~> 1.3.1'
+gem 'omniauth-twitter', '~> 1.2.1'
+gem 'omniauth-facebook', '~> 3.0.0'
+gem 'twitter', '~> 5.15.0'
 
 # Code Style (https://github.com/bbatsov/rubocop)
-gem 'rubocop'
-
-gem 'pundit'
-gem 'simple_form'
+gem 'rubocop', '~> 0.35.1'
 
 # Upload files
-gem "refile", require: "refile/rails"
-gem "refile-mini_magick"
+gem "refile", '~> 0.6.2', require: "refile/rails"
+gem "refile-mini_magick", '~> 0.2.0'
 
 #documentation
 gem 'swagger-docs', '~> 0.1.9'
 
 # errors
-gem 'better_errors'
-gem 'binding_of_caller'
+gem 'better_errors', '~> 2.1.1'
+gem 'binding_of_caller', '~> 0.7.2'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-font-awesome', '~> 4.5.0'
+  gem 'rails-assets-bootstrap-sass', '~> 3.3.6'
+end
+
+group :development, :test do
+  gem 'byebug', '~> 8.2.1'
+  gem 'dotenv-rails', '~> 2.0.2'
+end
+
+group :development do
+  gem 'web-console', '~> 2.0'
+end
