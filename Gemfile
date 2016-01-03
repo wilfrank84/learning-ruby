@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-ruby '2.2.3'
+ruby '2.2.4'
+
+gem 'bundler', '>= 1.10.4'
 
 gem 'rails', '4.2.5'
 gem 'sass-rails', '~> 5.0'
@@ -11,14 +13,14 @@ gem 'jbuilder', '~> 2.0'
 gem 'pundit', '~> 1.0.1'
 gem 'simple_form', '~> 3.2.1'
 
-#database
+# Database
 gem 'pg', '~> 0.18.4'
 
-#geoserver adapter
+# Geoserver adapter
 gem 'activerecord-postgis-adapter', '~> 3.1.2'
 gem 'rgeo', '~> 0.5.2'
 
-#acl layer
+# A.C.L layer
 gem 'devise', '~>3.5.2'
 gem 'omniauth', '~> 1.3.1'
 gem 'omniauth-twitter', '~> 1.2.1'
@@ -32,10 +34,10 @@ gem 'rubocop', '~> 0.35.1'
 gem "refile", '~> 0.6.2', require: "refile/rails"
 gem "refile-mini_magick", '~> 0.2.0'
 
-#documentation
+# Documentation
 gem 'swagger-docs', '~> 0.1.9'
 
-# errors
+# Errors
 gem 'better_errors', '~> 2.1.1'
 gem 'binding_of_caller', '~> 0.7.2'
 
