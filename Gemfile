@@ -43,9 +43,6 @@ gem 'twitter'
 # Code Style (https://github.com/bbatsov/rubocop)
 gem 'rubocop'
 
-# HAML (http://haml.info/about.html)
-gem 'haml'
-
 gem 'pundit'
 gem 'simple_form'
 

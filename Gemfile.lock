@@ -90,8 +90,6 @@ GEM
       railties (>= 3.2, < 5.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
-    haml (4.0.7)
-      tilt
     hashie (3.4.3)
     http (0.9.8)
       addressable (~> 2.3)
@@ -311,7 +309,6 @@ DEPENDENCIES
   devise (~> 3.5.2)
   dotenv-rails
   font-awesome-rails (~> 4.5)
-  haml
   jbuilder (~> 2.0)
   jquery-rails
   omniauth
