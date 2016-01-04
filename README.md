@@ -23,7 +23,15 @@ Após clonar o repositório localmente, entre no diretório criado e execute o s
 bundle install
 ```
 
-### 3 - Configuração do banco de dados
+### 3 - Configuração de variáveis de ambiente
+
+Copie o arquivo `.env.example` para um chamado `.env` e configure as variáveis de ambiente necessárias:
+
+```console
+cp .env.example .env
+```
+
+### 4 - Configuração do banco de dados
 
 Crie uma cópia do arquivo `config/database.yml.example` com o nome de `config/database.yml` e configure de acordo com o seu banco de dados (username, password, etc.):
 
