@@ -1,1 +1,13 @@
 @import "bootstrap-sass";
+
+.container {
+	padding-right: 10%;
+	padding-left: 10%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#photo img {
+	border-radius: 50%;
+	margin-top: 10px;
+}
