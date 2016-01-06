@@ -49,6 +49,9 @@ end
 group :development, :test do
   gem 'byebug', '~> 8.2.1'
   gem 'dotenv-rails', '~> 2.0.2'
+  gem 'rspec-rails', '~> 3.0'
+  gem 'shoulda-matchers', '~> 3.0'
+  gem 'factory_girl_rails' ,'~> 4.0'
 end
 
 group :development do
