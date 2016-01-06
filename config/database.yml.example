@@ -5,7 +5,7 @@ default: &default
   username:
   password:
   host: localhost
-  
+
 development:
   <<: *default
   database: rubysemzika_development
